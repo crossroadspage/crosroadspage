@@ -1,0 +1,644 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*================初期化======================*/
+
+*{margin: 0;padding: 0;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;line-height:1;}
+html, body {margin:0; padding:0; background-color:#fff;}
+* html body {background: url(null) fixed;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;} 
+a img { border: none;}
+ul {margin:0;padding:0;}
+li {list-style:none;}
+
+/*--------------- トップページ ----------------*/
+
+/*--- 病院からのお知らせ ---*/
+
+#top-news{
+	float:right;
+	width:760px;
+	height:auto;
+}
+#top-news p{
+	float:left;
+	text-align:left;
+	text-decoration: none;
+	padding-top:14px;
+	padding-bottom:14px;
+	padding-left:16px;
+	width:744px;
+	font-size:14px;
+	font-weight:normal;
+	line-height: 180%;
+	color:#444;
+	border-bottom:1px solid #eee;
+}
+
+/*--- 開放・準開放率70%。自己治癒力を引き出す治療を心がけています。 ---*/
+
+#top-principles{
+	float:right;
+	width:760px;
+	height:auto;
+}
+
+#top-principles h3{
+	float:left;
+	margin-top:16px;
+	padding-left:16px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+	width:auto;
+	line-height:200%;
+	letter-spacing:0em;
+	text-align:left;
+}
+#top-principles p.line{
+	float:left;
+	margin-top:6px;
+	text-align:left;
+	text-decoration: none;
+	padding-left:16px;
+	width:744px;
+	font-size:14px;
+	font-weight:normal;
+	line-height:160%;
+	color:#3F3F3F;
+}
+
+/*--- 採用のお知らせ ---*/
+
+#top-recruit{
+	float:right;
+	width:760px;
+	height:auto;
+}
+
+/*-- 医師募集 --*/
+
+#top-recruit #top-recruit-doctor{
+	clear:both;
+	float:left;
+	margin:0;
+	padding:0;
+	width:166px;
+	height:auto;
+}
+#top-recruit #top-recruit-doctor img{
+	display:block;
+	margin-top:17px;
+	width:160px;
+	height:120px;
+	padding:3px;
+	background: url(../images/top-recruit-doctor.gif) no-repeat;
+}
+#top-recruit #top-recruit-doctor p.doctor{
+	float:left;
+	margin-top:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:center;
+	text-decoration: none;
+	width:166px;
+	height:auto;
+	font-size:16px;
+	font-weight:normal;
+	line-height:100%;
+	color:#fff;
+	background-color:#4E7AAB;
+}
+#top-recruit #top-recruit-doctor p.doctor-full{
+	float:left;
+	margin-top:12px;
+	padding-left:18px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#aaa;
+	line-height:100%;
+	background: url(../images/top-recruit-arrow.gif) no-repeat;
+}
+#top-recruit #top-recruit-doctor p.doctor-full a{
+	color:#333;
+	line-height:100%;
+}
+#top-recruit #top-recruit-doctor p.recruit-red{
+	float:left;
+	margin-top:15px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:12px;
+	font-weight:bold;
+	color:#D80000;
+}
+
+/*--------------- 看護師募集 ----------------*/
+
+#top-recruit #top-recruit-nurse{
+	float:left;
+	margin-left:31px;
+	padding:0;
+	width:166px;
+	height:auto;
+}
+#top-recruit #top-recruit-nurse img{
+	display:block;
+	margin-top:17px;
+	width:160px;
+	height:120px;
+	padding:3px;
+	background: url(../images/top-recruit-nurse.gif) no-repeat;
+}
+#top-recruit #top-recruit-nurse p.nurse{
+	float:left;
+	margin-top:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:center;
+	text-decoration: none;
+	width:166px;
+	height:auto;
+	font-size:16px;
+	font-weight:normal;
+	line-height:100%;
+	color:#fff;
+	background-color:#4E7AAB;
+}
+#top-recruit #top-recruit-nurse p.nurse-full{
+	float:left;
+	margin-top:12px;
+	padding-left:18px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#aaa;
+	line-height:100%;
+	background: url(../images/top-recruit-arrow.gif) no-repeat;
+}
+#top-recruit #top-recruit-nurse p.nurse-full a{
+	color:#333;
+	line-height:100%;
+}
+#top-recruit #top-recruit-nurse p.recruit-red{
+	float:left;
+	margin-top:15px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:12px;
+	font-weight:bold;
+	color:#D80000;
+}
+
+/*--------------- その他募集 ----------------*/
+
+#top-recruit #top-recruit-others{
+	float:left;
+	margin-left:31px;
+	padding:0;
+	width:166px;
+	height:auto;
+}
+#top-recruit #top-recruit-others img{
+	display:block;
+	margin-top:17px;
+	width:160px;
+	height:120px;
+	padding:3px;
+	background: url(../images/top-recruit-others.gif) no-repeat;
+}
+#top-recruit #top-recruit-others p.others{
+	float:left;
+	margin-top:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:center;
+	text-decoration: none;
+	width:166px;
+	height:auto;
+	font-size:16px;
+	font-weight:normal;
+	line-height:100%;
+	color:#fff;
+	background-color:#4E7AAB;
+}
+#top-recruit #top-recruit-others p.others-full{
+	float:left;
+	margin-top:12px;
+	padding-left:18px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#aaa;
+	line-height:100%;
+	background: url(../images/top-recruit-arrow.gif) no-repeat;
+}
+
+#top-recruit #top-recruit-others p.others-full a{
+	color:#333;
+	line-height:100%;
+}
+#top-recruit #top-recruit-others p.recruit-red{
+	float:left;
+	margin-top:15px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:12px;
+	font-weight:bold;
+	color:#D80000;
+}
+
+/*--------------- パート募集 ----------------*/
+
+#top-recruit #top-recruit-parttime{
+	float:right;
+	padding:0;
+	width:166px;
+	height:auto;
+}
+#top-recruit #top-recruit-parttime img{
+	display:block;
+	margin-top:17px;
+	width:160px;
+	height:120px;
+	padding:3px;
+	background: url(../images/top-recruit-parttime.gif) no-repeat;
+}
+#top-recruit #top-recruit-parttime p.parttime{
+	float:left;
+	margin-top:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	text-align:center;
+	text-decoration: none;
+	width:166px;
+	height:auto;
+	font-size:16px;
+	font-weight:normal;
+	line-height:100%;
+	color:#fff;
+	background-color:#4E7AAB;
+}
+#top-recruit #top-recruit-parttime p.parttime-full{
+	float:left;
+	margin-top:12px;
+	padding-left:18px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:underline;
+	color:#aaa;
+	line-height:100%;
+	background: url(../images/top-recruit-arrow.gif) no-repeat;
+}
+#top-recruit #top-recruit-parttime p.parttime-full a{
+	color:#333;
+	line-height:100%;
+}
+#top-recruit #top-recruit-parttime p.recruit-red{
+	float:left;
+	margin-top:15px;
+	display:inline;
+	width:146px;
+	height:13px;
+	font-size:12px;
+	font-weight:bold;
+	color:#D80000;
+}
+
+
+/*--------------- トップページ ----------------*/
+
+
+
+@media screen and (max-width:760px) {
+
+	#top-news{
+		float:none;
+		width:auto;
+		height:auto;
+
+	}
+	#top-news p{
+		float:left;
+		text-align:left;
+		text-decoration: none;
+		padding-top:14px;
+		padding-bottom:14px;
+		padding-left:0px;
+		width:744px;
+		font-size:10px;
+		font-weight:normal;
+		line-height: 180%;
+		color:#444;
+		border-bottom:1px solid #eee;
+
+
+	}
+	
+	/*--- 開放・準開放率70%。自己治癒力を引き出す治療を心がけています。 ---*/
+	
+	#top-principles{
+		display: none;
+		float:right;
+		width:760px;
+		height:auto;
+	}
+	
+	#top-principles h3{
+		float:left;
+		margin-top:16px;
+		padding-left:16px;
+		font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+		font-size:18px;
+		font-weight:bold;
+		color:#000;
+		width:auto;
+		line-height:200%;
+		letter-spacing:0em;
+		text-align:left;
+	}
+	#top-principles p.line{
+		float:left;
+		margin-top:6px;
+		text-align:left;
+		text-decoration: none;
+		padding-left:16px;
+		width:744px;
+		font-size:14px;
+		font-weight:normal;
+		line-height:160%;
+		color:#3F3F3F;
+	}
+	
+	/*--- 採用のお知らせ ---*/
+	
+	#top-recruit{
+		display: none;
+		float:right;
+		width:760px;
+		height:auto;
+	}
+	
+	/*-- 医師募集 --*/
+	
+	#top-recruit #top-recruit-doctor{
+		clear:both;
+		float:left;
+		margin:0;
+		padding:0;
+		width:166px;
+		height:auto;
+	}
+	#top-recruit #top-recruit-doctor img{
+		display:block;
+		margin-top:17px;
+		width:160px;
+		height:120px;
+		padding:3px;
+		background: url(../images/top-recruit-doctor.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-doctor p.doctor{
+		float:left;
+		margin-top:10px;
+		padding-top:8px;
+		padding-bottom:8px;
+		text-align:center;
+		text-decoration: none;
+		width:166px;
+		height:auto;
+		font-size:16px;
+		font-weight:normal;
+		line-height:100%;
+		color:#fff;
+		background-color:#4E7AAB;
+	}
+	#top-recruit #top-recruit-doctor p.doctor-full{
+		float:left;
+		margin-top:12px;
+		padding-left:18px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:14px;
+		font-weight:normal;
+		text-decoration:underline;
+		color:#aaa;
+		line-height:100%;
+		background: url(../images/top-recruit-arrow.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-doctor p.doctor-full a{
+		color:#333;
+		line-height:100%;
+	}
+	#top-recruit #top-recruit-doctor p.recruit-red{
+		float:left;
+		margin-top:15px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:12px;
+		font-weight:bold;
+		color:#D80000;
+	}
+	
+	/*--------------- 看護師募集 ----------------*/
+	
+	#top-recruit #top-recruit-nurse{
+		float:left;
+		margin-left:31px;
+		padding:0;
+		width:166px;
+		height:auto;
+	}
+	#top-recruit #top-recruit-nurse img{
+		display:block;
+		margin-top:17px;
+		width:160px;
+		height:120px;
+		padding:3px;
+		background: url(../images/top-recruit-nurse.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-nurse p.nurse{
+		float:left;
+		margin-top:10px;
+		padding-top:8px;
+		padding-bottom:8px;
+		text-align:center;
+		text-decoration: none;
+		width:166px;
+		height:auto;
+		font-size:16px;
+		font-weight:normal;
+		line-height:100%;
+		color:#fff;
+		background-color:#4E7AAB;
+	}
+	#top-recruit #top-recruit-nurse p.nurse-full{
+		float:left;
+		margin-top:12px;
+		padding-left:18px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:14px;
+		font-weight:normal;
+		text-decoration:underline;
+		color:#aaa;
+		line-height:100%;
+		background: url(../images/top-recruit-arrow.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-nurse p.nurse-full a{
+		color:#333;
+		line-height:100%;
+	}
+	#top-recruit #top-recruit-nurse p.recruit-red{
+		float:left;
+		margin-top:15px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:12px;
+		font-weight:bold;
+		color:#D80000;
+	}
+	
+	/*--------------- その他募集 ----------------*/
+	
+	#top-recruit #top-recruit-others{
+		float:left;
+		margin-left:31px;
+		padding:0;
+		width:166px;
+		height:auto;
+	}
+	#top-recruit #top-recruit-others img{
+		display:block;
+		margin-top:17px;
+		width:160px;
+		height:120px;
+		padding:3px;
+		background: url(../images/top-recruit-others.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-others p.others{
+		float:left;
+		margin-top:10px;
+		padding-top:8px;
+		padding-bottom:8px;
+		text-align:center;
+		text-decoration: none;
+		width:166px;
+		height:auto;
+		font-size:16px;
+		font-weight:normal;
+		line-height:100%;
+		color:#fff;
+		background-color:#4E7AAB;
+	}
+	#top-recruit #top-recruit-others p.others-full{
+		float:left;
+		margin-top:12px;
+		padding-left:18px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:14px;
+		font-weight:normal;
+		text-decoration:underline;
+		color:#aaa;
+		line-height:100%;
+		background: url(../images/top-recruit-arrow.gif) no-repeat;
+	}
+	
+	#top-recruit #top-recruit-others p.others-full a{
+		color:#333;
+		line-height:100%;
+	}
+	#top-recruit #top-recruit-others p.recruit-red{
+		float:left;
+		margin-top:15px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:12px;
+		font-weight:bold;
+		color:#D80000;
+	}
+	
+	/*--------------- パート募集 ----------------*/
+	
+	#top-recruit #top-recruit-parttime{
+		float:right;
+		padding:0;
+		width:166px;
+		height:auto;
+	}
+	#top-recruit #top-recruit-parttime img{
+		display:block;
+		margin-top:17px;
+		width:160px;
+		height:120px;
+		padding:3px;
+		background: url(../images/top-recruit-parttime.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-parttime p.parttime{
+		float:left;
+		margin-top:10px;
+		padding-top:8px;
+		padding-bottom:8px;
+		text-align:center;
+		text-decoration: none;
+		width:166px;
+		height:auto;
+		font-size:16px;
+		font-weight:normal;
+		line-height:100%;
+		color:#fff;
+		background-color:#4E7AAB;
+	}
+	#top-recruit #top-recruit-parttime p.parttime-full{
+		float:left;
+		margin-top:12px;
+		padding-left:18px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:14px;
+		font-weight:normal;
+		text-decoration:underline;
+		color:#aaa;
+		line-height:100%;
+		background: url(../images/top-recruit-arrow.gif) no-repeat;
+	}
+	#top-recruit #top-recruit-parttime p.parttime-full a{
+		color:#333;
+		line-height:100%;
+	}
+	#top-recruit #top-recruit-parttime p.recruit-red{
+		float:left;
+		margin-top:15px;
+		display:inline;
+		width:146px;
+		height:13px;
+		font-size:12px;
+		font-weight:bold;
+		color:#D80000;
+	}
+	
+
+}
