@@ -1,0 +1,593 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*================初期化======================*/
+
+*{margin: 0;padding: 0;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;line-height:1;}
+html, body {margin:0; padding:0; background-color:#fff;}
+* html body {background: url(null) fixed;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;} 
+a img { border: none;}
+ul {margin:0;padding:0;}
+li {list-style:none;}
+
+/*---------------ヘッダー（HEADER）----------------*/
+
+#header {
+	width:100%;
+	min-width:1024px;
+    height:auto;
+	border-top:5px solid #4E7AAB;
+} 
+#header p.title{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:15px;
+	padding-left:15px;
+	padding-bottom:15px;
+	text-align:left;
+	width:1012px;
+	font-size:12px;
+	font-weight:normal;
+	color:#111;
+	letter-spacing:0em;
+	line-height:100%;
+	border-bottom:1px solid #ddd;
+}
+#header-container {
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+    height:58px;
+}
+#header-logo {
+	float:left;
+	margin-left:15px;
+	padding-top:20px;
+	padding-bottom:17px;
+	width:214px;
+    height:58px;
+	display:inline;
+}
+#header-logo h1 img a{
+	display:block;
+	text-decoration:none;
+}
+#header-contact {
+	float:right;
+	margin-right:19px;
+	padding-top:25px;
+	width:300px;
+    height:25px;
+	display:inline;
+}
+#header-contact img a{
+	display:block;
+	text-decoration:none;
+}
+#header-contact p{
+	padding-top:8px;
+	width:auto;
+	height:auto;
+	float:right;
+	text-align:right;
+	font-size:13px;
+	font-weight:normal;
+	color:#222;
+	line-height:100%;
+	letter-spacing:0em;
+	border:none;
+}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+#menu-bar {
+	clear:both;
+	padding-top:12px;
+	width:100%;
+	min-width:1024px;
+    height:51px;
+	background-image:url(../images/menu-bar-bg.jpg);
+	background-repeat:repeat-x;
+}
+
+ul#global-navi {
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+    height:38px;
+}
+ul#global-navi li{
+	margin:0;
+	padding:0;
+	width: 1024px;
+	height:38px;
+	display: inline;
+}
+
+ul#global-navi li a{
+	display: block;
+	float:left;
+	width: 100%;
+	height:38px;
+	text-decoration: none;
+}
+ul#global-navi img{
+	display: block;
+	float:left;
+	width: 100%;
+	height:38px;
+	text-decoration: none;
+}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+
+ul#global-navi li.bt-home a{width:49px;}
+ul#global-navi li.bt-profile a{width:188px;}
+ul#global-navi li.bt-principle a{width:94px;}
+ul#global-navi li.bt-about a{width:110px;}
+ul#global-navi li.bt-dept a{width:94px;}
+ul#global-navi li.bt-outpatient a{width:141px;}
+ul#global-navi li.bt-access a{width:126px;}
+ul#global-navi li.bt-employ a{width:94px;}
+ul#global-navi li.bt-contact a{width:128px;}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+.sp{
+	display: none;
+}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+#sub-menubar {
+	clear:both;
+	padding-top:16px;
+	width:100%;
+	min-width:1024px;
+    height:41px;
+	background-image:url(../images/sub-menubar-bg.jpg);
+	background-repeat:repeat-x;
+}
+
+ul#sub-navi {
+	margin-left:auto;
+	margin-right:auto;
+	width:1022px;
+    height:24px;
+}
+ul#sub-navi li{
+	margin:0;
+	padding:0;
+	width: auto;
+	height:24px;
+	display: inline;
+}
+
+ul#sub-navi li a{
+	display: block;
+	width: 100%;
+	height:24px;
+	float:left;
+	text-decoration: none;
+}
+ul#sub-navi img{
+	display: block;
+	width: 100%;
+	height:24px;
+	float:left;
+	text-decoration: none;
+}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+
+ul#sub-navi li.sub-bt-recruit-dr a{width:110px;}
+ul#sub-navi li.sub-bt-recruit-pharm a{width:101px;}
+ul#sub-navi li.sub-bt-recruit a{width:104px;}
+ul#sub-navi li.sub-bt-intro a{width:78px;}
+ul#sub-navi li.sub-bt-timetable a{width:91px;}
+ul#sub-navi li.sub-bt-hospitalization a{width:118px;}
+ul#sub-navi li.sub-bt-floormap a{width:105px;}
+ul#sub-navi li.sub-bt-blog a{width:118px;}
+ul#sub-navi li.sub-bt-link a{width:91px;}
+ul#sub-navi li.sub-bt-sitemap a{width:106px;}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+
+
+#icon-menu {
+	clear:both;
+	margin:0;
+	padding:0;
+	width:100%;
+	min-width:1024px;
+    height:211px;
+	background-image:url(../images/icon-menu-bg.jpg);
+	background-repeat:repeat-x;
+	border-top:1px solid #E1DFC9;
+	border-bottom:1px solid #E1DFC9;
+	
+}
+
+ul#icon-navi {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:27px;
+	padding:0;
+	width:1024px;
+	height:150px;
+	background-image:url(../images/icon-menu-bg-bar.gif);
+}
+	
+ul#icon-navi li{
+	margin:0;
+	padding:0;
+	width: 114px;
+	height:150px;
+	float:left;
+}
+
+ul#icon-navi img{
+	display: block;
+	width: 110px;
+	height:97px;
+	float:left;
+	border:2px solid #fff;
+	text-decoration: none;
+}
+ul#icon-navi img a{
+	display: block;
+	margin-left:26px;
+	width: 110px;
+	height:97px;
+	border:2px solid #fff;
+	text-decoration: none;
+}
+
+ul#icon-navi p a:link { color:#212121; text-decoration:none; font-weight:bold;}
+ul#icon-navi p a:visited { color:#212121; text-decoration:none; font-weight:bold;}
+ul#icon-navi p a:active { color:#212121; text-decoration:none; font-weight:bold;}
+ul#icon-navi p a:hover { color:#212121; text-decoration:underline; font-weight:bold;}
+
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+
+ul#icon-navi li.icon-outpatient{ 
+	margin-left:39px;
+	margin-right:26px;
+}
+ul#icon-navi li.icon-outpatient p{
+	clear:both;
+	text-align:center;
+	width:110px;
+	height:auto;
+	text-decoration: none;
+	padding-top:19px;
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+}
+ul#icon-navi li.icon-consultant{ 
+	margin-left:30px;
+	margin-right:26px;}
+ul#icon-navi li.icon-consultant p{
+	clear:both;
+	text-align:center;
+	width:110px;
+	height:auto;
+	text-decoration: none;
+	padding-top:14px;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+}
+ul#icon-navi li.icon-daycare{ 
+	margin-left:30px;
+	margin-right:26px;}
+ul#icon-navi li.icon-daycare p{
+	clear:both;
+	text-align:center;
+	width:110px;
+	height:auto;
+	text-decoration: none;
+	padding-top:14px;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+}
+ul#icon-navi li.icon-ot{ 
+	margin-left:30px;
+	margin-right:26px;}
+ul#icon-navi li.icon-ot p{
+	clear:both;
+	text-align:center;
+	width:110px;
+	height:auto;
+	text-decoration: none;
+	padding-top:14px;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+}
+ul#icon-navi li.icon-nursing{ 
+	margin-left:30px;
+	margin-right:26px;}
+ul#icon-navi li.icon-nursing p{
+	clear:both;
+	text-align:center;
+	width:110px;
+	height:auto;
+	text-decoration: none;
+	padding-top:14px;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+}
+ul#icon-navi li.icon-exam{ 
+	margin-left:30px;
+}
+ul#icon-navi li.icon-exam p{
+	clear:both;
+	text-align:center;
+	width:110px;
+	height:auto;
+	text-decoration: none;
+	padding-top:13px;
+	font-size:14px;
+	font-weight:bold;
+	letter-spacing:0em;
+}
+.xmall{
+	padding:0px;
+	margin:0px;
+	font-size:11px;
+	font-weight:bold;
+	letter-spacing:0em;
+	line-height:160%;
+}
+/*---------------ヘッダー右上ボタン（HEADER TOPRIGHT BUTTON）----------------*/
+	
+	
+	
+@media screen and (max-width:760px) {
+	
+	
+	#header{
+  	background-color: #fff;
+		min-width: initial;
+		height: auto;
+  }
+
+	.title{
+		display: none;
+	}
+
+  #header-container {
+		width: 100%;
+		height: auto;
+	}
+	#header-logo {
+		float:none;
+		margin-left:0px;
+		padding-top:10px;
+		padding-bottom:0;
+		width:35%;
+			height:auto;
+
+	}
+
+	#header-logo  {
+		width: auto;
+	}
+
+
+	#header-contact {
+		float: none;
+		margin-right:5px;
+	  padding-top: 30px;
+	  width: 300px;
+    height:25px;
+
+	}
+	#header-contact img {
+		width: 200px;
+		float: right;
+	}
+
+	#header-contact p{
+		padding-top:8px;
+		width:auto;
+		height:auto;
+		font-size:8px;
+	}
+
+
+	#header-container{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+  }
+
+  .pc{
+		display: none;
+	}
+
+
+  .sp{
+		display: block;
+	}
+
+	#menu-bar-sp {
+		clear: both;
+		padding:0;
+		margin: 0;		
+		min-width:initial;
+			height:auto;
+		background-image:none;
+		background-repeat:repeat-x;
+			width: 100%;
+			height: 96px;
+			display: flex;
+			flex-wrap: wrap;			
+
+	}
+	
+	ul#global-navi li a{
+		padding: 0;
+		margin: 0;
+		width: 32.9%;
+		height: 30px;
+		background-color: rgb(30,71,115);
+		text-align: center;
+		line-height: 30px;
+		color: #fff;
+		border: #fff 0.1px solid;
+
+	}
+
+
+
+	#icon-menu {
+
+		margin:0;
+		padding:0;
+		min-width:initial;
+		height:auto;
+
+		background-image:none;
+		background-repeat:none;
+		border-top:1px solid #E1DFC9;
+		border-bottom:1px solid #E1DFC9;
+	}
+	
+	ul#icon-navi {
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:0px;
+		padding:0;
+		width:100%;
+		height:auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		
+
+	}
+		
+	ul#icon-navi li{
+		margin:0;
+		padding:0;
+		width: 16%;
+		height:auto;
+		float:none;
+		border: #ddd 1px solid;
+	}
+	
+	ul#icon-navi img{
+		margin:0;
+		padding:0;
+		display: block;
+		width: 100%;
+		height:auto;
+		float:none;
+		border:2px solid #fff;
+		text-decoration: none;
+	}
+	ul#icon-navi img a{
+		display: block;
+		margin-left:26px;
+		width: 110px;
+		height:97px;
+		border:2px solid #fff;
+		text-decoration: none;
+	}
+
+
+	ul#icon-navi li.icon-outpatient{ 
+		margin-left:0px;
+		margin-right:0px;
+		
+	}
+	ul#icon-navi li.icon-outpatient p{
+		clear:both;
+		text-align:center;
+		width:auto;
+		height:auto;
+		text-decoration: none;
+		padding-top:0px;
+		font-size:14px;
+		font-weight:bold;
+		letter-spacing:0.1em;
+	}
+	ul#icon-navi li.icon-consultant{ 
+		margin-left:0px;
+		margin-right:0px;
+	}
+	ul#icon-navi li.icon-consultant p{
+		clear:both;
+		text-align:center;
+		width:auto;
+		height:auto;
+		text-decoration: none;
+		padding-top:0px;
+		font-size:10px;
+		font-weight:bold;
+		letter-spacing:0.1em;
+	}
+	ul#icon-navi li.icon-daycare{ 
+		margin-left:0px;
+		margin-right:0px;
+	}
+	ul#icon-navi li.icon-daycare p{
+		clear:both;
+		text-align:center;
+		width:auto;
+		height:auto;
+		text-decoration: none;
+		padding-top:0;
+		font-size:10px;
+		font-weight:bold;
+		letter-spacing:0.1em;
+	}
+	ul#icon-navi li.icon-ot{ 
+		margin-left:0px;
+		margin-right:0px;}
+	ul#icon-navi li.icon-ot p{
+		clear:both;
+		text-align:center;
+		width:auto;
+		height:auto;
+		text-decoration: none;
+		padding-top:0px;
+		font-size:10px;
+		font-weight:bold;
+		letter-spacing:0.1em;
+	}
+	ul#icon-navi li.icon-nursing{ 
+		margin-left:0px;
+		margin-right:0px;}
+	ul#icon-navi li.icon-nursing p{
+		clear:both;
+		text-align:center;
+		width:auto;
+		height:auto;
+		text-decoration: none;
+		padding-top:0px;
+		font-size:13px;
+		font-weight:bold;
+		letter-spacing:0.1em;
+	}
+	ul#icon-navi li.icon-exam{ 
+		margin-left:0px;
+	}
+	ul#icon-navi li.icon-exam p{
+		clear:both;
+		text-align:center;
+		width:auto;
+		height:auto;
+		text-decoration: none;
+		padding-top:0px;
+		font-size:12px;
+		font-weight:bold;
+		letter-spacing:0em;
+	}
+
+	.xmall{
+		display: none;
+	}	
+}
