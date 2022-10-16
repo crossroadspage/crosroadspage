@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("reset.css");
+@import url("header.css");/* Header */
+@import url("slider.css");/* Slider */
+@import url("base.css");/* Base */
+@import url("top.css");/* top */
+@import url("main.css");/* Promo */
+@import url("footer.css");/* Footer */
