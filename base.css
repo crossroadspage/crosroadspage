@@ -1,0 +1,398 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*================初期化======================*/
+
+*{margin: 0;padding: 0;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;line-height:1;}
+html, body {margin:0; padding:0; background-color:#fff;}
+* html body {background: url(null) fixed;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;} 
+a img { border: none;}
+ul {margin:0;padding:0;}
+li {list-style:none;}
+
+/*--------------- パンくず（Breadcrumbs）----------------*/
+
+#bread {
+	clear:both;
+	width:100%;
+	min-width:1024px;
+    height:auto;
+	border-bottom:1px solid #ddd;
+	margin-bottom:30px;
+} 
+ol.bread-crumbs {
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+	padding-top: 18px;
+	padding-bottom:15px;
+	padding-left:5px;
+	padding-right:5px;
+	list-style-type: none;
+} 
+
+ol.bread-crumbs li {
+	padding-left: 5px;
+	display: inline;
+	line-height:13px;
+}
+ol.bread-crumbs li.home{
+	margin-left:15px;
+	padding-left: 20px;
+	background: url(../images/bread-home.gif) no-repeat left;
+	color:#666;
+	font-size:13px;
+	line-height:13px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+ol.bread-crumbs li a {
+	padding-right: 20px;
+	color:#666;
+	font-size:13px;
+	line-height:13px;
+	font-weight:bold;
+	background: url(../images/bread-arrow.gif) no-repeat right;
+}
+
+ol.bread-crumbs li a:link { color:#666; text-decoration:underline; font-weight:bold;}
+ol.bread-crumbs li a:visited { color:#666; text-decoration:underline; font-weight:bold;}
+ol.bread-crumbs li a:active { color:#666; text-decoration:underline; font-weight:bold;}
+ol.bread-crumbs li a:hover { color:#666; text-decoration:underline; font-weight:bold;}
+
+
+/*---------------　メイン部分（WRAPPER）----------------*/
+
+
+#wrapper {
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:17px;
+	padding-right:17px;
+	width:990px;
+	height:auto;
+} 
+
+/*---------------　左部分（WRAPPER）----------------*/
+
+#side-bar {
+	clear:both;
+	float:left;
+	width:200px;
+	height:auto;
+	margin-bottom:80px;
+}
+#side-bar .left-column-hours img{
+	float:left;
+	width:200px;
+    height:580px;
+	display:block;
+}
+#side-bar .left-column-time-schedule img{
+	float:left;
+	width:200px;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+}
+
+#side-bar .left-column-blog img{
+	float:left;
+	width:200px;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+}
+
+#side-bar .left-column-ig img{
+	float:left;
+	width:200px;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+}
+
+#side-bar .left-column-contact img{
+	float:left;
+	width:200px;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+}
+
+/*---------------　右部分（WRAPPER）----------------*/
+
+#container {
+	float:right;
+	width:760px;
+	height:auto;
+	margin-bottom:80px;
+}
+
+/*---------------　右部分 タイトルバー (上マージン無し）----------------*/
+
+#container #title{
+	clear:both;
+	float:left;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+#container #title h2{
+	float:left;
+	text-align:left;
+	text-decoration: none;
+	padding-top:19px;
+	padding-left:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:#333;
+}
+
+#container #title .catch a{
+	float:right;
+	text-align:right;
+	display:inline;
+	text-decoration: none;
+	margin-top:14px;
+	margin-right:9px;
+	padding:7px;
+	padding-bottom:6px;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#00A3D9;
+	border-bottom:1px solid #0085B2;
+}
+#container #title .catch a:hover { text-decoration:underline;}
+
+
+/*---------------　右部分 タイトルバー (上マージン有り）----------------*/
+
+#container #title-sub{
+	display: none;
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+#container #title-sub-one{
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+#container #title-sub-two{
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+#container #title-sub-three{
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+#container #title-sub-four{
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+#container #title-sub-five{
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+
+#container #title-sub-six{
+	clear:both;
+	float:left;
+	margin-top:43px;
+	width:760px;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+}
+
+#container #title-sub h2, #container #title-sub-one h2, #container #title-sub-two h2, #container #title-sub-three h2, #container #title-sub-four h2, #container #title-sub-five h2, #container #title-sub-five h2, #container #title-sub-six h2{
+	float:left;
+	text-align:left;
+	text-decoration: none;
+	padding-top:19px;
+	padding-left:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:#333;
+}
+
+#container #title-sub .catch a, #container #title-sub-one .catch a{
+	float:right;
+	text-align:right;
+	display:inline;
+	text-decoration: none;
+	margin-top:14px;
+	margin-right:9px;
+	padding:7px;
+	padding-bottom:6px;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#00A3D9;
+	border-bottom:1px solid #0085B2;
+}
+#container #title-sub .catch a:hover, #container #title-sub-one .catch a:hover { text-decoration:underline;}	
+
+
+
+
+@media screen and (max-width:760px) {
+#bread{
+	display: none;
+}
+
+#wrapper {
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:0px;
+	padding-right:0px;
+	width:auto;
+	height:auto;
+} 
+
+#side-bar {
+	clear:both;
+	float:none;
+	width:auto;
+	height:auto;
+	margin-bottom:20px;
+
+}
+
+#side-bar .left-column-hours img{
+	float:none;
+	width:auto;
+    height:580px;
+	display:block;
+	margin: 0 auto;
+}
+#side-bar .left-column-time-schedule img{
+	float:none;
+	width:auto;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+	margin: 0 auto;
+}
+
+#side-bar .left-column-blog img{
+	float:none;
+	width:auto;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+	margin: 0 auto;
+}
+
+#side-bar .left-column-ig img{
+	float:none;
+	width:auto;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+	margin: 0 auto;
+}
+
+#side-bar .left-column-contact img{
+	float:none;
+	width:auto;
+    height:48px;
+	display:block;
+	margin-top:10px;
+	text-decoration:none;
+	margin: 0 auto;
+}
+
+/*---------------　右部分 タイトルバー (上マージン無し）----------------*/
+#container {
+	float:none;
+	height:auto;
+	margin-bottom:80px;
+
+}
+
+#container #title{
+	clear:both;
+	float:none;
+	width:auto;
+	height:51px;
+	background: url(../images/h2-bg.gif) no-repeat left;
+	background-color: rgb(30,71,115);
+
+}
+#container #title h2{
+	float:none;
+	width: auto;
+	text-align: left;
+	text-decoration: none;
+	padding-top:19px;
+	padding-left:0px;
+	font-size:15px;
+	font-weight:bold;
+	color:#fff;
+}
+
+
+#container #title .catch a{
+	float:right;
+	text-align:right;
+	display:inline;
+	text-decoration: none;
+	margin-top:14px;
+	margin-right:9px;
+	padding:7px;
+	padding-bottom:6px;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#00A3D9;
+	border-bottom:1px solid #0085B2;
+}
+#container #title .catch a:hover { text-decoration:underline;}
+
+#container #title-sub h2, #container #title-sub-one h2, #container #title-sub-two h2, #container #title-sub-three h2, #container #title-sub-four h2, #container #title-sub-five h2, #container #title-sub-five h2, #container #title-sub-six h2{
+	display: none;
+	float:left;
+	text-align:left;
+	text-decoration: none;
+	padding-top:19px;
+	padding-left:30px;
+	font-size:15px;
+	font-weight:bold;
+	color:#333;
+}
+ 
+}
